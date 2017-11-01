@@ -110,7 +110,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Images" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Images" image="first" largeContentSizeImage="first" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -167,7 +167,7 @@
     <resources>
         <image name="cat_pdf" width="192" height="188"/>
         <image name="cat_png" width="96" height="94"/>
-        <image name="first" width="30" height="30"/>
+        <image name="first" width="24" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
 </document>
