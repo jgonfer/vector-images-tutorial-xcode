@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
@@ -117,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
+            <point key="canvasLocation" x="777" y="-330"/>
         </scene>
         <!--Accessibility-->
         <scene sceneID="wg7-f3-ORb">
@@ -129,24 +130,30 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pumpkin_png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1DA-4C-9fI">
                                 <rect key="frame" x="140" y="96" width="96" height="96"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="1DA-4C-9fI" secondAttribute="height" multiplier="1:1" id="5aF-OQ-NNw"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pumpkin_pdf" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QuR-CM-wkQ">
                                 <rect key="frame" x="139" y="382.5" width="96" height="96"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="QuR-CM-wkQ" secondAttribute="height" multiplier="1:1" id="yYt-rs-UMf"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PNG image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryj-U3-G6N">
-                                <rect key="frame" x="140" y="200.5" width="96" height="20.5"/>
+                                <rect key="frame" x="143.5" y="200.5" width="89" height="20.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PDF image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXl-xj-osf">
-                                <rect key="frame" x="139" y="487" width="96" height="20.5"/>
+                                <rect key="frame" x="144.5" y="487" width="85.5" height="20.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -154,8 +161,6 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="QuR-CM-wkQ" firstAttribute="width" secondItem="oXl-xj-osf" secondAttribute="width" id="36H-8T-cwv"/>
-                            <constraint firstItem="1DA-4C-9fI" firstAttribute="width" secondItem="ryj-U3-G6N" secondAttribute="width" id="5pi-8m-CvC"/>
                             <constraint firstItem="1DA-4C-9fI" firstAttribute="centerX" secondItem="O1u-W8-tvY" secondAttribute="centerX" id="ArA-eY-O8s"/>
                             <constraint firstItem="oXl-xj-osf" firstAttribute="centerX" secondItem="QuR-CM-wkQ" secondAttribute="centerX" id="ByL-qg-JdY"/>
                             <constraint firstItem="ryj-U3-G6N" firstAttribute="firstBaseline" secondItem="1DA-4C-9fI" secondAttribute="baseline" constant="24.5" symbolType="layoutAnchor" id="XU5-Je-S99"/>
@@ -171,7 +176,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="359.37031484257875"/>
+            <point key="canvasLocation" x="1478" y="0.0"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
