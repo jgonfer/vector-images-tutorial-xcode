@@ -10,3 +10,11 @@
 ![Icon App](https://jgonfer.com/blog/wp-content/uploads/2017/10/vector-images-tutorial.png)
 
 Visit the related post to learn about the vector images in Xcode 9 and make this project from scratch at https://jgonfer.com/blog/vector-images-in-xcode-9/.
+
+### Credits
+
+The images used in this project have been downloaded from [Iconfinder](https://www.iconfinder.com/roundicons) and were made by [Round icons](https://roundicons.com/).
+
+More specifically:
+- Cat: [Link](https://www.iconfinder.com/icons/1573287/animal_cat_halloween_pet_scary_spooky_icon#size=128)
+- Pumpkin: [Link](https://www.iconfinder.com/icons/1573289/decoration_halloween_holiday_pumpkin_scary_spooky_icon#size=128)
