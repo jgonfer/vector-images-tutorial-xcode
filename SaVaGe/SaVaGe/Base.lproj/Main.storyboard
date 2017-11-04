@@ -128,13 +128,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pumpkin_png" translatesAutoresizingMaskIntoConstraints="NO" id="1DA-4C-9fI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pumpkin_png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1DA-4C-9fI">
                                 <rect key="frame" x="140" y="96" width="96" height="96"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="1DA-4C-9fI" secondAttribute="height" multiplier="1:1" id="5aF-OQ-NNw"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pumpkin_pdf" translatesAutoresizingMaskIntoConstraints="NO" id="QuR-CM-wkQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pumpkin_pdf" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QuR-CM-wkQ">
                                 <rect key="frame" x="139" y="382.5" width="96" height="96"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="QuR-CM-wkQ" secondAttribute="height" multiplier="1:1" id="yYt-rs-UMf"/>
