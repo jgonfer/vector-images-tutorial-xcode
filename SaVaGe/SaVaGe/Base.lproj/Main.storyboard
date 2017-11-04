@@ -114,7 +114,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Images" image="first" largeContentSizeImage="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Images" image="first" largeContentSizeImage="first_large" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="imagesBarItem" destination="acW-dT-cKf" id="o5g-aT-Lfo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -172,8 +175,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Accessibility" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Accessibility" image="second" largeContentSizeImage="second_large" id="cPa-gy-q4n"/>
                     <connections>
+                        <outlet property="accessibilityBarItem" destination="cPa-gy-q4n" id="5ov-n1-4Sv"/>
                         <outlet property="pumpkinPdfImageView" destination="QuR-CM-wkQ" id="eFt-Tx-4zq"/>
                         <outlet property="pumpkinPngImageView" destination="1DA-4C-9fI" id="DFp-k6-ncn"/>
                     </connections>
@@ -205,8 +209,10 @@
         <image name="cat_pdf" width="96" height="94"/>
         <image name="cat_png" width="96" height="94"/>
         <image name="first" width="24" height="30"/>
+        <image name="first_large" width="55" height="72"/>
         <image name="pumpkin_pdf" width="96" height="94"/>
         <image name="pumpkin_png" width="96" height="94"/>
         <image name="second" width="30" height="30"/>
+        <image name="second_large" width="75" height="75"/>
     </resources>
 </document>

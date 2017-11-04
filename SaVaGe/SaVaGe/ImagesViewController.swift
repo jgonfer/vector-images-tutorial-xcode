@@ -9,10 +9,17 @@
 import UIKit
 
 class ImagesViewController: UIViewController {
-
+    @IBOutlet weak var imagesBarItem: UITabBarItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        if #available(iOS 11.0, *) {
+            let image = UIImage(named: "first_large")
+            imagesBarItem.largeContentSizeImage = image
+        } else {
+            // Fallback on earlier versions
+        }
     }
 
     override func didReceiveMemoryWarning() {
