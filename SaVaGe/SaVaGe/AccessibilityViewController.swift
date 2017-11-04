@@ -15,8 +15,12 @@ class AccessibilityViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        pumpkinPngImageView.adjustsImageSizeForAccessibilityContentSizeCategory = true
-        pumpkinPdfImageView.adjustsImageSizeForAccessibilityContentSizeCategory = true
+        if #available(iOS 11.0, *) {
+            pumpkinPngImageView.adjustsImageSizeForAccessibilityContentSizeCategory = true
+            pumpkinPdfImageView.adjustsImageSizeForAccessibilityContentSizeCategory = true
+        } else {
+            // Fallback on earlier versions
+        }
     }
 
     override func didReceiveMemoryWarning() {
